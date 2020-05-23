@@ -1,0 +1,29 @@
+{
+  "name": "barebabel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bplotnick0/BareBabel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bplotnick0/BareBabel/issues"
+  },
+  "homepage": "https://github.com/bplotnick0/BareBabel#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.6",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
